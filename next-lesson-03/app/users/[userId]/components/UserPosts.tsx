@@ -1,3 +1,5 @@
+/// because this component file name isn't page.tsx so it won't be a Route 
+
 type Props = {
     promise: Promise<Post[]>
 }
