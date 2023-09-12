@@ -60,8 +60,8 @@ export default async function UserPage({ params: { userId } }: Params) {
         {/* this is  the one approach in Next  when normally fetching or using Promise.all like above but a second approach is to use suspense  to improve Performance by incrementally rendering a Page and show it to the user while the rest of the page Content loads/}
         Supence applies to a part of a page or a component but when creating a Loading.tsx file it will apply to all the page or the component inside of the component
         {/* <UserPosts posts={userPosts}*/}
-        {/* das ist der eine Ansatz in Next, wenn man normalerweise fetching oder Promise.all wie oben verwendet, aber ein zweiter Ansatz ist die Verwendung von Susence, um die Leistung zu verbessern, indem eine Seite inkrementell gerendert und dem Benutzer angezeigt wird, während der Rest der Seite Inhalt lädt/}
-        Supence gilt für einen Teil einer Seite oder einer Komponente, aber wenn man eine Loading.tsx Datei erstellt, gilt sie für die gesamte Seite oder die Komponente innerhalb der Komponente
+        {/* das ist der eine Ansatz in Next, wenn man normalerweise fetching oder Promise.all wie oben verwendet, aber ein zweiter Ansatz ist die Verwendung von Suspence, um die Leistung zu verbessern, indem eine Seite inkrementell gerendert und dem Benutzer angezeigt wird, während der Rest der Seite den Inhalt lädt/}
+        Suspence gilt für einen Teil einer Seite oder einer Komponente, aber wenn man eine Loading.tsx Datei erstellt, gilt sie für die gesamte Seite oder die Komponente innerhalb der Komponente
         {/* <UserPosts posts={userPosts}*/}
 
 
